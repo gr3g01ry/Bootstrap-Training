@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tesla avec Bootstrap</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- ENTETE -->
+<header class="sticky-top shadow border-bottom">
+  
+  <nav class="navbar bg-dark p-3">
+    <div class="container ">
+      <img src="https://believemy.com/uploads/2f3811b9174e35a2d77902ffd36a9a37_4dfb82dd429edb6a11a81ff74e9abfc4.png" style="height: 30px" class="mx-auto d-block m-2"/>
+    </div>
+  </nav>
+  
+</header>
+
+<!-- ICI : jumbotron -->
+
+<div  class="jumbotron text-white" style="background: center/cover url('https://believemy.com/uploads/126d05180ddf6f2ea67c8b669855bf89_e45c0e92710b43b3b938ed8fc4938f71.png'); height: 450px">
+  <div class="container">
+    
+    <h1 class="display-3 font-weight-light">Bienvenue.</h1>
+      <hr class="bg-white">
+    <p class=" mt-2 lead">Le site Tesla vous permet de commander vos fusées et vos voitures, même lorsque vous êtes dans votre canapé.   <br>   <span class="bg-success d-block my-2 px-2 font-weight-bold w-auto float-left">Un conseillé est en ligne.</span></p>
+  </div>
+</div>
+
+<!-- PREMIERE SECTION -->
+<section>
+  
+  <div class="container ">
+    
+    <!-- ICI : progress bar-->
+    <div class="progress">
+      <div class="progress-bar bg-danger text-right progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+    <!-- ICI : alerte -->
+    <div class="alert alert-primary rounded ">
+    Bienvenue sur Tesla. Ce site est en maintenance pour une grosse mise à jour.<br>
+    Veuillez nous excuser pour ce désagréments. <br>N'hésitez pas à contacter un de nos conseillés.
+    <hr>
+      <!-- ICI : les deux boutons -->
+      <div class="btn-group btn-block btn-sm" role="group" aria-label="avancement">
+         <button type="button" class="btn btn-danger w-50">Suivre les avancements</button>
+         <button type="button" class="btn btn-success">Nous contacter</button>
+      </div>
+    </div>
+    
+    <nav aria-label="breadcrumb">
+     <!-- ICI : fil d'ariane -->
+       <ol class="breadcrumb font-weight-bold">
+        <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
+       </ol>
+    </nav>
+    
+  </div>
+  
+</section>
+
+<!-- DEUXIEME SECTION -->
+<section>
+  
+  <div class="container m-3">
+    <hr class="bg-secondary">
+    <!-- ICI : les cartes --> 
+ <div class="card-deck">   
+    <div class="card w-50">
+      <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" class="card-img-top" alt="logo_tesla">
+      <div class="card-body bg-secondary text-white">
+         <h5 class="card-title"> Nouveauté</h5>
+        <p class="card-text">Vous pourrez bientôt acheter des fusées pour aller sur la lune. </p>
+      </div>
+    </div>
+    
+    <div class="card ">
+      <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" class="card-img-top" alt="logo_tesla">
+      <div class="card-header bg-secondary text-white">Information</div>
+    <div class="card-body bg-secondary text-white">
+      
+         <h5 class="card-title">Nouveauté</h5>
+        <p class="card-text">Recevez en exclusité les infos de SpaceX et une visite gratuite du centre valable à vie pour 4 personnes.</p>
+      </div>
+    </div>
+      
+  </div>
+  </div>
+</section>
+
+<!-- TROISIEME SECTION -->
+<section class="mx-auto bg-dark p-5 text-white mt-2" >
+  <div class="ml" style="width:450px"  >
+    <h2>Contactez-nous</h2>
+    <!-- ICI : formulaire -->
+    <form>
+      <div class="form-group">
+         <label for="exampleInputEmail1">Adresse Email</label>
+    <input type="email" class="form-control"  aria-describedby="email adress" placeholder="Entrer votre adresse email">
+    <small id="emailHelp" class="form-text text-muted text-warning">Celle ci ne sera pas diffusée.</small>
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+         <label for="Message">Message</label>
+          <textarea class="form-control"          rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-light btn-lg">Soumettre </button>
+    </form>
+  </div>
+</section>
+
+<!-- ICI : pied de page -->
+<footer class="bg-secondary p-3 text-right">
+  <div class="container">
+  2019 @greg-is-dev
+  </div>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
